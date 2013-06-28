@@ -5,6 +5,12 @@
 	<key>fileTypes</key>
 	<array>
 		<string>r</string>
+		<string>r2</string>
+		<string>r3</string>
+		<string>reb</string>
+		<string>rebol</string>
+		<string>red</string>
+		<string>reds</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>^#!/.*\brebol\b</string>
@@ -15,7 +21,7 @@
 	<key>keyEquivalent</key>
 	<string>^R</string>
 	<key>name</key>
-	<string>Rebol</string>
+	<string>Rebol &amp; Red</string>
 	<key>patterns</key>
 	<array>
 		<dict>

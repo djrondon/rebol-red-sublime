@@ -1,5 +1,5 @@
-Rebol syntax highlighting for Sublime Text 2/3
-----------------------------------------------
+Rebol, Red and Red/System syntax highlighting for Sublime Text 2/3
+------------------------------------------------------------------
 
 It is based on the [TextMate Bundle](https://github.com/rgchris/rebol-tmbundle)
 made by [@rgchris](http://chat.stackoverflow.com/users/292969/rgchris)
@@ -12,8 +12,11 @@ Installation:
 
 ### ST3 on Mac OS X ###
 
-    cd ~/"Library/Application Support/Sublime Text 3/Packages"
-    git clone git://github.com/onetom/rebol-sublime Rebol
+    cd ~/"Library/Application Support/Sublime Text 3/Packages/User"
+    git clone git://github.com/onetom/rebol-red-sublime 'Rebol & Red'
+    echo '{ "extensions": ["r"] }' > 'Rebol & Red.sublime-settings'
+
+The extension setting makes sure that Rebol is selected for the `.r` file extension, not R, the statistical package.
 
 ### ST2 on Windows / Linux ###
 
